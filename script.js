@@ -5,7 +5,6 @@
 
 //Write filterByGenre(books, genre) below here:
 
-
 const books = [
   {
     title: "The Da Vinci Code",
@@ -64,4 +63,6 @@ const books = [
   },
 ];
 
+const filterByGenre = books.filter(list => list.genre === "sci-fi");
 
+console.log(JSON.stringify(filterByGenre));
